@@ -20,7 +20,7 @@ p{
 
 /* Utility Class */
 .text-primary{
-   color: #93cb52;
+   color: #5a52cb;
 }
 .text-center{
    text-align: center;
@@ -46,13 +46,13 @@ p{
 }
 .btn{
    color: #ffffff;
-   background-color: #93cb52;
+   background-color: #5264cb;
    padding: 0.75rem 2rem;
    border: none;
    border-radius: 5px;
 }
 .btn:hover{
-   background-color: #7ab436;
+   background-color: #363eb4;
 }
 
 /* Navbar */
@@ -80,18 +80,18 @@ p{
 }
 
 #navbar ul li a:hover{
-   background-color: #93cb52;
+   background-color: #5274cb;
    border-radius: 5px;
 }
 
-/* Showcase */
-#showcase{
-   background: url('../images/showcase.jpg') no-repeat center center/cover;
+/* webhost */
+#webhost{
+   background: url('../images/webhosted.jpg') no-repeat center center/cover;
    color: #ffffff;
    height: 100vh;
 }
 
-#showcase .showcase-content{
+#webhost .webhost-content{
    display: flex;
    flex-direction: column;
    text-align: center;
@@ -115,36 +115,36 @@ p{
 }
 
 #what .items .item i{
-   background-color: #93cb52;
+   background-color: #5293cb;
    padding: 1rem;
    margin-bottom: 1rem;
    border-radius: 50%;
 }
 
-/* Who We Are */
-#who{
+/* services We Are */
+#services{
    display: flex;
 }
 
-#who div{
+#services div{
    flex: 1;
 }
 
-#who .who-img{
-   background: url('../images/people.jpg') no-repeat center center/cover;
+#services .services-img{
+   background: url('../images/services.png') no-repeat center center/cover;
 }
 
-#who .who-text{
-   padding: 1.5rem;
+#services .services-text{
+   padding: rgb(96, 96, 218);
    background-color: #333333;
    color: #ffffff;
 }
-#who .who-text ul{
+#services .services-text ul{
    list-style: none;
    margin: 1rem 0;
 }
 
-#who .who-text ul li{
+#services .services-text ul li{
    /* margin: 0.5rem 0 */
    padding: 0.5rem 0;
    border-bottom: 1px dotted #444;
@@ -169,7 +169,7 @@ p{
 
 
 #contact .contact-form{
-   background-color: #93cb52;
+   background-color: #5286cb;
    color: #ffffff;
 }
 
